@@ -19,7 +19,7 @@
         <%
             //Carregar dados do registro a ser editado
             DestinationService objDestinationService = new DestinationService();
-            //test
+            
             String id = request.getParameter("id");
             DestinationVO objDestinationVO = objDestinationService.getOneDestination(id);
 %>
